@@ -1,0 +1,13 @@
+[workspace]
+
+members = [
+    "hello-world",
+    "hf-hub-primer",
+    "primitive-linear",
+    "use-candle-nn",
+]
+
+[workspace.dependencies]
+candle-core = { git = "https://github.com/huggingface/candle.git", version = "0.4.0" }
+candle-nn = { git = "https://github.com/huggingface/candle.git", version = "0.4.0"}
+hf-hub = { version = "0.3.2" }
