@@ -1,0 +1,11 @@
+[package]
+name = "hf-hub-primer"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+hf-hub = { workspace = true, features = ["tokio"] }
+candle-core = { workspace = true }
+candle-nn = { workspace = true }
